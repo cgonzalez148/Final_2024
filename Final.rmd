@@ -79,6 +79,12 @@ The graph shows that the men who were vaccinated had a significantly lower risk 
 $H_0$: The covid vaccine does not have an impact on females      
 $H_A$: The covid vaccine does have an impact on females
 
+## Methods
+
+Sex is a categorical variable     
+Treatment is categorical variable     
+The helper file I used is Cat~Cat 
+
 ## LGBTQ
 
 
