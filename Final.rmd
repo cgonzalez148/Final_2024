@@ -125,6 +125,10 @@ This numerical summary shows that the odds ratio is 1.85:1, indicating that fema
 The chi-square test yields a p-value of 0.00000002, indicating a significant difference which results in rejecting the null hypothesis.       
 The fisher's exact test has a p-value of 0.00000001, which is lower than 0.05 resulting in us rejecting the null hypothesis.  
 
+### Conclusion
+
+The results indicate that females who received the vaccine have a lower risk of contracting covid-19 compared to those who received the placebo. The data shows that 65% of females that took a placebo were infected with covid-19, while only 35% of those who received the vaccine were infected. The odds ratio of 1.85:1 suggests that females in the placebo group were 1.85 times more likely to get covid-19 compared to those who were vaccinated. The chi-square test returned a p-value of 0.00000002 which is below 0.05 which results in rejecting the null hypothesis. The fisher's exact test yielded a p-value of 0.00000001 which is also below 0.05 meaning we reject the null hypothesis. 
+
 ## LGBTQ
 
 
