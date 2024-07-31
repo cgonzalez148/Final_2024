@@ -50,7 +50,13 @@ This graph indicates that males who received the vaccine are less likely to get 
 
 ### Numerical Descriptive
 
-
+```{r}
+table1 <- xtabs(~treatment +infected, data=males)
+rowPerc(table1)
+colPerc(table1)
+```
+     
+This numerical summary shows that 74% of males who received the placebo got covid19, whereas only 26% of those who received the vaccine did.
 
 ### Females
 
