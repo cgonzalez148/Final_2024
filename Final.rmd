@@ -33,7 +33,24 @@ $H_A$: The covid vaccine does have an impact on males
 
 Infected is a categorical variable     
 Treatment is categorical variable     
-Cat~Cat is the file used to get the data results     
+The helper file I used is Cat~Cat 
+
+## Descriptive Results
+
+### Graphical Results
+
+```{r}
+males=filter(FinalData,FinalData$sex=="M")
+barchartGC(~treatment + infected, data=males)
+barchartGC(~infected +treatment, data=males,type="percent")
+
+```
+     
+This graph indicates that males who received the vaccine are less likely to get covid19 compared to those who got a placebo.
+
+### Numerical Descriptive
+
+
 
 ### Females
 
