@@ -112,6 +112,19 @@ colPerc(table2)
 
 This numerical summary shows that 65% of females who received the placebo were infected with covid-19, whereas 35% of females who received the vaccine got the virus.
 
+### Inferential Results
+
+```{r}
+chisq.test(table2)
+chisqtestGC(table2)
+fisher.test(table2)
+```
+
+This numerical summary shows that the odds ratio is 1.85:1, indicating that females who got the placebo are 1.85 times more likely to contract covid-19 compared to females who were vaccinated. 
+
+The chi-square test yields a p-value of 0.00000002, indicating a significant difference which results in rejecting the null hypothesis.       
+The fisher's exact test has a p-value of 0.00000001, which is lower than 0.05 resulting in us rejecting the null hypothesis.  
+
 ## LGBTQ
 
 
