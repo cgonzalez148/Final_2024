@@ -46,7 +46,7 @@ barchartGC(~infected +treatment, data=males,type="percent")
 
 ```
      
-This graph indicates that males who received the vaccine are less likely to get covid19 compared to those who got a placebo.
+This graph indicates that males who received the vaccine are less likely to get covid-19 compared to those who got a placebo.
 
 ### Numerical Descriptive Results
 
@@ -56,7 +56,7 @@ rowPerc(table1)
 colPerc(table1)
 ```
      
-This numerical summary shows that 74% of males who received the placebo got covid19, whereas only 26% of those who received the vaccine did.
+This numerical summary shows that 74% of males who received the placebo got covid-19, whereas only 26% of those who received the vaccine did.
 
 ### Inferential Results
 
@@ -66,7 +66,7 @@ chisqtestGC(table1)
 fisher.test(table1)
 ```
 
-The odds ratio of 2.81:1 which means that the individuals who took the placebo are 2.81 times more likely to contract covid19 compared to those who got the vaccine.          
+The odds ratio of 2.81:1 which means that the individuals who took the placebo are 2.81 times more likely to contract covid-19 compared to those who got the vaccine.          
 
 The p-value for the chi-square test is 0.0000000000000002, the fishers exact test yields a p-value of 0.000000000000002. Therefore, we reject the null hypothesis. 
 
@@ -100,7 +100,17 @@ barchartGC(~infected +treatment, data=females,type="percent")
 
 ```
 
-This graph indicates that females who received the vaccine are less likely to contract covid19 compared to females who recevied the placebo.
+This graph indicates that females who received the vaccine are less likely to contract covid19 compared to females who received the placebo.
+
+### Numerical Descriptive Results
+
+```{r}
+table2 <- xtabs(~infected + treatment, data=femaleData)
+rowPerc(table2)
+colPerc(table2)
+```
+
+This numerical summary shows that 65% of females who received the placebo were infected with covid-19, whereas 35% of females who received the vaccine got the virus.
 
 ## LGBTQ
 
