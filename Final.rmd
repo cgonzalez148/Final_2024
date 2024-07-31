@@ -68,9 +68,11 @@ fisher.test(table1)
 
 The odds ratio of 2.81:1 which means that the individuals who took the placebo are 2.81 times more likely to contract covid19 compared to those who got the vaccine.          
 
-The p-value for the chi-square test is 0.000000000000002, the fishers exact test yields a p-value of 0.0000000000000002. Therefore, we reject the null hypothesis. 
+The p-value for the chi-square test is 0.0000000000000002, the fishers exact test yields a p-value of 0.000000000000002. Therefore, we reject the null hypothesis. 
 
+### Conclusion
 
+The graph shows that the men who were vaccinated had a significantly lower risk of getting covid19 compared to those that received a placebo. The data shows that 74% of males who received the placebo contracted covid19, while only 26% of those who were vaccinated did. The odds ratio of 2.81:1 indicates that those who received the placebo are 2.81 times more likely to contract COVID-19 than those who were vaccinated. The chi-square test yielded a p-value of 0.00000000000000002, and Fisher's exact test produced a p-value of 0.00000000000000002, both of which are well below 0.05, showing significant results.       
 
 ### Females
 
