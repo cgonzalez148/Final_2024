@@ -31,7 +31,9 @@ $H_A$: The covid vaccine does have an impact on males
 
 ## Methods
 
-
+Infected is a categorical variable     
+Treatment is categorical variable     
+Cat~Cat is the file used to get the data results     
 
 ### Females
 
