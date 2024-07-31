@@ -58,6 +58,20 @@ colPerc(table1)
      
 This numerical summary shows that 74% of males who received the placebo got covid19, whereas only 26% of those who received the vaccine did.
 
+### Inferential Results
+
+```{r}
+chisq.test(table1)
+chisqtestGC(table1)
+fisher.test(table1)
+```
+
+The odds ratio of 2.81:1 which means that the individuals who took the placebo are 2.81 times more likely to contract covid19 compared to those who got the vaccine.          
+
+The p-value for the chi-square test is 0.000000000000002, the fishers exact test yields a p-value of 0.0000000000000002. Therefore, we reject the null hypothesis. 
+
+
+
 ### Females
 
 $H_0$: The covid vaccine does not have an impact on females      
