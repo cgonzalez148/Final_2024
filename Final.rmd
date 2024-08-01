@@ -208,4 +208,14 @@ barchartGC(~infected+treatment,data=DruggiesData, type="percent")
 
 This graph indicates that drug users who received the placebo were less likely to get covid-19 compared to those who received the vaccine.
 
+### Numerical Descriptive Results
+
+```{r}
+table4 <- xtabs(~ treatment + infected, data=DruggiesData)
+rowPerc(table4)
+colPerc(table4)
+```
+
+This numerical summary shows that the drug users who took a placebo experience 8.33% of the symptoms, whereas the vaccinated group 91.67% of the symptoms. 
+
 # Overall Results and Conclusions
