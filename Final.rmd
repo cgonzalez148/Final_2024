@@ -176,7 +176,11 @@ fisher.test(table3)
 This numerical summary shows that the odds ratio is 4.27:1, indicating that LGBTQ group who got the placebo are 4.27 times more likely to contract covid-19 compared to the LGBTQ group who was vaccinated. 
 
 The chi-square test reveals a p-value of 0.000002, which is below 0.05 resulting in rejecting the null hypothesis.     
-The fisher's exact test provides a p-value of 0.00000007, which is also below 0.05 resulting in rejecting the nyll hypothesis.
+The fisher's exact test provides a p-value of 0.00000007, which is also below 0.05 resulting in rejecting the null hypothesis.
+
+### Conclusion 
+
+The graph demonstrates that the LGBTQ group that was vaccinated have a significantly lower risk of getting covid-19 compared to those who got a placebo. The numerical summary shows that 80% of the LGBTQ placebo group had symptoms, while only 20% of the vaccinated group did. The odds ratio was 4.27:1 which meant that the group who got the placebo was 4.27 times more likely to get covid-19 compared to the vaccinated group. The chi-square test produced a p-value of 0.000002, which is below 0.05 resulting in rejecting the null hypothesis. The fishers exact test resulted in a p-value of 0.00000007, which is also below 0.05, tjis indicates a significant difference between the two groups which further supports rejecting the null hypothesis within this subgroup.  
 
 ## Druggies
 
