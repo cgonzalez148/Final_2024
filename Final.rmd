@@ -142,7 +142,7 @@ The helper file I used is Cat~Cat
 
 ## Descriptive Results
 
-### Graphical Results
+### Graphical Descriptive Results
 
 ```{r}
 LGBTQData = filter (FinalData,LGBTQ == "gay")
@@ -154,6 +154,16 @@ barchartGC(~infected+treatment,data=LGBTQData, type="percent")
 ```
 
 This graph shows that in the LGBTQ group, those who were vaccinated have a lower risk of getting covid-19 compared to those who received the placebo. 
+
+### Numerical Descriptive Results 
+
+```{r}
+table3 <- xtabs(~ treatment + infected, data=LGBTQData)
+rowPerc(table3)
+colPerc(table3)
+```
+
+This numerical summary indicates that in the LGBTQ placebo group, 80% experienced symptoms, whereas omly 20% of those in the vaccinated group did. 
 
 ## Druggies
 
