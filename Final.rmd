@@ -218,4 +218,17 @@ colPerc(table4)
 
 This numerical summary shows that the drug users who took a placebo experience 8.33% of the symptoms, whereas the vaccinated group 91.67% of the symptoms. 
 
+### Inferential Results
+
+```{r}
+chisq.test(table4)
+chisqtestGC(table4)
+fisher.test(table4)
+```
+
+This numerical summary shows that the odds ratio is 0.087:1, indicating that DrugUser group who got the placebo are 0.087 times less likely compared to the DrugUser group who was vaccinated. 
+
+The chi-square test yields a p-value of 0.0000000001, which is belo 0.05 resulting in rejecting the null hypothesis.     
+The fisher's exact test provides a p-value of 0.000000000003 which is also lower than 0.05 which shows a significant difference between the two groups and it supports the rejection of the null hypothesis. 
+
 # Overall Results and Conclusions
