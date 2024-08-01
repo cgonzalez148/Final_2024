@@ -189,7 +189,7 @@ $H_A$ The COVID vaccine has an impact on the Drug User
 
 ## Methods 
 
-Drug User is a categorical variable     
+Drug User is a categorical variable    
 Treatment is categorical variable     
 The helper file I used is Cat~Cat
 
