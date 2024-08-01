@@ -182,7 +182,15 @@ The fisher's exact test provides a p-value of 0.00000007, which is also below 0.
 
 The graph demonstrates that the LGBTQ group that was vaccinated have a significantly lower risk of getting covid-19 compared to those who got a placebo. The numerical summary shows that 80% of the LGBTQ placebo group had symptoms, while only 20% of the vaccinated group did. The odds ratio was 4.27:1 which meant that the group who got the placebo was 4.27 times more likely to get covid-19 compared to the vaccinated group. The chi-square test produced a p-value of 0.000002, which is below 0.05 resulting in rejecting the null hypothesis. The fishers exact test resulted in a p-value of 0.00000007, which is also below 0.05, tjis indicates a significant difference between the two groups which further supports rejecting the null hypothesis within this subgroup.  
 
-## Druggies
+# Druggies
 
+$H_0$ The COVID vaccine has no impact on the Drug User
+$H_A$ The COVID vaccine has an impact on the Drug User
+
+## Methods 
+
+Drug User is a categorical variable     
+Treatment is categorical variable     
+The helper file I used is Cat~Cat
 
 # Overall Results and Conclusions
