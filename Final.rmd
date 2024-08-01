@@ -165,6 +165,19 @@ colPerc(table3)
 
 This numerical summary indicates that in the LGBTQ placebo group, 80% experienced symptoms, whereas omly 20% of those in the vaccinated group did. 
 
+### Inferential Results
+
+```{r}
+chisq.test(table3)
+chisqtestGC(table3)
+fisher.test(table3)
+```
+
+This numerical summary shows that the odds ratio is 4.27:1, indicating that LGBTQ group who got the placebo are 4.27 times more likely to contract covid-19 compared to the LGBTQ group who was vaccinated. 
+
+The chi-square test reveals a p-value of 0.000002, which is below 0.05 resulting in rejecting the null hypothesis.     
+The fisher's exact test provides a p-value of 0.00000007, which is also below 0.05 resulting in rejecting the nyll hypothesis.
+
 ## Druggies
 
 
